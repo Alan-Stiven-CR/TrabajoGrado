@@ -1,4 +1,4 @@
--- MCD --
+-- clientes --
 DROP TABLE IF EXISTS tabla_clientes PURGE;
 
 CREATE TABLE tabla_clientes STORED AS PARQUET AS
@@ -67,7 +67,7 @@ COMPUTE STATS tabla_clientes_2;
 
 
 
--- MCR --
+-- riesgo credito --
 DROP TABLE IF EXISTS tabla_riesgo_credito PURGE;
 
 CREATE TABLE tabla_riesgo_credito STORED AS PARQUET AS
@@ -104,10 +104,7 @@ WHERE
 
 COMPUTE STATS tabla_riesgo_credito;
 
-
-
--- Base clientes objetivo proyecto interpretedores gestion de cupo y Score --
-
+-- cruce entre las dos tablas
 DROP TABLE IF EXISTS tabla_riesgo_credito_2 PURGE;
 
 CREATE TABLE tabla_riesgo_credito_2 STORED AS PARQUET AS
