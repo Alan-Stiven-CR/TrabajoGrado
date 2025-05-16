@@ -7,3 +7,6 @@ contiene todas las consultas necesarias para la creación y estructuración de l
 
 # Ejecución:
 Los scripts deben ejecutarse en el orden numérico indicado (por ejemplo, 01_base_clientes_objetivo.sql, 02_base_desempleo.sql, etc.) dentro de un entorno de base de datos compatible con SQL estándar (como PostgreSQL, MySQL o SQL Server, según corresponda).
+
+# Carpeta DATA:
+Contiene las tablas resultantes de la ejecución de los scripts SQL, almacenadas en formato .parquet para garantizar eficiencia en el almacenamiento y procesamiento. Estos archivos representan la base de datos consolidada con toda la información transaccional del cliente, y están nombrados y enumerados siguiendo el orden en que fueron creados, lo que facilita su seguimiento y uso posterior. Estos datos sirven como insumo principal para las etapas de análisis exploratorio, modelado y validación del proyecto.
