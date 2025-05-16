@@ -10,3 +10,6 @@ Los scripts deben ejecutarse en el orden numérico indicado (por ejemplo, 01_bas
 
 # Carpeta Data:
 Contiene las tablas resultantes de la ejecución de los scripts SQL, almacenadas en formato .parquet para garantizar eficiencia en el almacenamiento y procesamiento. Estos archivos representan la base de datos consolidada con toda la información transaccional del cliente, y están nombrados y enumerados siguiendo el orden en que fueron creados, lo que facilita su seguimiento y uso posterior. Estos datos sirven como insumo principal para las etapas de análisis exploratorio, modelado y validación del proyecto.
+
+# Carpeta Code:
+contiene los notebooks que conforman la ejecución central del proyecto. En esta etapa de desarrollo, el flujo abarca la ingesta de los datos previamente construidos, la exploración gráfica de las variables mediante histogramas y boxplots para la detección de outliers, el análisis de correlación entre variables, y la limpieza y preparación de los datos, enfocándose principalmente en el tratamiento de valores atípicos y nulos. Finalmente, se realiza la visualización de los resultados obtenidos. La ejecución de los notebooks debe seguir el orden establecido en sus nombres, ya que cada uno representa un paso secuencial dentro del proceso de análisis y modelado.
