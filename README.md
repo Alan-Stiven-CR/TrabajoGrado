@@ -38,5 +38,5 @@ El repositorio está organizado en las siguientes carpetas:
 # 3. Ejecución
 - Base de datos: Ejecutar los scripts en la carpeta SQL en el orden indicado para generar la base de datos.
 - Datos: Si ya se cuenta con los archivos .parquet en la carpeta DATA, pse puede avanzar directamente a los notebooks.
-- Notebooks: Abrir los notebooks de la carpeta Code en Jupyter Notebook, JupyterLab o google collab. Ejecutarlos en el orden numérico establecido, ya que representan el paso a paso del proyecto.
+- Notebooks: Abrir los notebooks de la carpeta Code en Jupyter Notebook, JupyterLab o google colab. Ejecutarlos en el orden numérico establecido, ya que representan el paso a paso del proyecto.
 
